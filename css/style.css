@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+img{
+    height: ;
+}
 .hero{
     position: relative;
     width: 100%;
@@ -164,10 +167,22 @@ p{
 .btn-primary:hover{
     background-color: #978f8f;
 }
-@media only screen and (min-width:300px){
-    .container{
-        width: 100%!important;
-        padding-bottom: 50px!important;
-    }
-}
-
+.scroll-up {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+  }
+  
+  .up-arrow {
+    width: 3rem;
+    height: 3rem;
+  }
+  footer {
+    background-color: var(--bg-color);
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+    background-color: #212121;
+    color: #978f8f;
+  }
