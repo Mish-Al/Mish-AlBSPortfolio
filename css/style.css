@@ -5,6 +5,11 @@
     font-family: sans-serif;
 }
 
+html,
+body{
+    overflow-x:hidden;
+}
+
 .hero{
     position: relative;
     width: 100%;
@@ -26,11 +31,12 @@ nav ul li{
     margin: 10px 20px;
 }
 
+
 nav ul li a:hover{
      color: #97a3ab !important;
 }
 
-nav ul li a{
+.hero ul li a{
     text-decoration: none;
     color: #000;
     font-weight: bold;
@@ -65,6 +71,10 @@ span{
     display: inline-block;
     margin: 30px 0;
     border-radius: 5px;
+}
+
+.image{
+
 }
 
 .images{
@@ -121,6 +131,7 @@ p{
     background-color: rgb(135, 138, 142);
 }
 .container-fluid{
+
     font-family: sans-serif;
 }
 .img-thumbnail{
@@ -164,17 +175,7 @@ p{
 .btn-primary:hover{
     background-color: #444040!important;
 }
-.scroll-up {
-    position: fixed;
-    right: 0.5%;
-    bottom: 3%;
-    cursor: pointer;
-  }
-  
-  .up-arrow {
-    width: 3rem;
-    height: 3rem;
-  }
+
   footer {
     background-color: var(--bg-color);
     padding: 1.25rem;
@@ -183,3 +184,97 @@ p{
     background-color: #212121;
     color: #978f8f;
 }
+.container{
+    display: flex;
+    
+
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid;
+}
+
+.para{
+    display: flex;
+    align-items: end;
+    margin: 4rem;
+    font-style: italic;
+    text-align: center;
+}
+.container .right{
+    display: flex;
+    text-align: right;
+    border: 2px solid;
+    margin-top: 5px;
+} 
+.name{
+    display: flex;
+    align-items: start;
+    margin: 5rem;
+    font-weight: 1000;
+}
+.progress{
+    width: 100%;
+    /* margin: 5rem; */
+    
+   }
+.progress .progress-bar1{
+    background-color: #878181;
+    text-align: center;
+
+}
+.progress .progress-bar2{
+    background-color: #312e2e;
+    color: white;
+    text-align: center;    
+}
+.progress .progress-bar3{
+    background-color: rgb(15, 14, 14);
+    color: white;
+    text-align: center;
+}
+.bar{
+    margin: 5rem;
+}
+.animation{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    size-adjust;
+}
+.row .edu{
+    display: flex;
+    flex-direction: column;
+    
+}
+.col-4 .card1{
+    margin-left: 2rem;
+}
+
+.card{
+    margin-left: 2rem;
+}
+.col-4 .card-img-top2{
+    margin-left: 4rem;
+}
+.col-4 .card-text2{
+    margin-left: 9rem;
+    
+}
+.detel .readbutt{
+    background-color: #312e2e;
+    color: #978f8f;
+    border: ;
+}
+
+
+
+    
+
+
+
+
+
+
+
