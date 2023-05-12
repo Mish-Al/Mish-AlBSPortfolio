@@ -73,9 +73,7 @@ span{
     border-radius: 5px;
 }
 
-.image{
 
-}
 
 .images{
     width: 45%;
@@ -86,6 +84,7 @@ span{
 }
 
 .images img{
+    
     height: 100%;
     position: absolute;
     left: 50%;
@@ -196,6 +195,7 @@ p{
 }
 
 .para{
+   font-size: x-large;
     display: flex;
     align-items: end;
     margin: 4rem;
@@ -237,36 +237,111 @@ p{
 .bar{
     margin: 5rem;
 }
-.animation{
+.col .animation{
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
-    size-adjust;
-}
-.row .edu{
-    display: flex;
-    flex-direction: column;
-    
-}
-.col-4 .card1{
-    margin-left: 2rem;
-}
-
-.card{
-    margin-left: 2rem;
-}
-.col-4 .card-img-top2{
-    margin-left: 4rem;
-}
-.col-4 .card-text2{
-    margin-left: 9rem;
+    margin-top: 2rem;
     
 }
 .detel .readbutt{
     background-color: #312e2e;
     color: #978f8f;
-    border: ;
+    border: 2px solid;
 }
+.carousel-item .d-block{
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.imgDIV{
+    flex-wrap:wrap;
+}
+
+
+.claws{
+    border:1px solid black !important;
+    flex-wrap:nowrap;
+}
+
+.right{
+    border:1px solid black;
+    margin: 0 2px;
+}
+.detel{
+    background-color:  rgb(135, 138, 142); 
+    margin: 0;
+    padding: 0;
+    height: 50rem;
+}
+.feet{
+    padding: 0%;
+    margin: 0%;
+    height: 10rem;
+}
+
+@media screen and (max-width: 700px){
+    .images img{
+        display: none;
+        
+    }
+    .feet{
+        font-size: small;
+        bottom: 0%;
+        position: fixed;
+        width: 100%;
+        height: 19%;
+        
+
+    }
+    .detel a{
+        font-size: small;
+    }
+    .detel{
+        background-color: rgb(135, 138, 142);
+        margin: 0;
+        padding: 0;
+        height: 50rem;
+    }
+    .detel h1{
+       text-align: center;
+    }
+    .detel p{
+        text-align: center;
+    }
+    .detel .readbutt{
+        margin-left: 19rem;
+    }
+   
+}
+
+
+@media screen and (min-width: 300px){
+    .detel h1 {
+        font-size: 16px;
+        font-weight: bold; 
+    }
+    .detel p{
+        font-size: small;
+    }
+    .detel a{
+        margin-left: 4rem;
+        font-size: small;
+      
+    }
+    .feet{
+        font-size: small;
+    }
+    .nav-item{
+        font-size: small;
+
+    }
+    
+}
+
+
 
 
 
